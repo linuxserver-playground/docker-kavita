@@ -10,6 +10,9 @@ upstream:
   version:
     type: github_release
     repo: kareadita/kavita
+    require_assets:
+      - asset: '^kavita\-linux\-x64\.tar\.gz$'
+      - asset: '^kavita\-linux\-arm64\.tar\.gz$'
   notes:
     type: github_release
     repo: kareadita/kavita
